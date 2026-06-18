@@ -1,0 +1,98 @@
+.estacion-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e8f4f8 100%);
+  padding: 40px 20px;
+}
+
+.estacion-header {
+  text-align: center;
+  margin-bottom: 40px;
+  animation: fadeIn 0.5s ease-in;
+}
+
+.estacion-header h1 {
+  font-size: 32px;
+  color: #1d3557;
+  margin-bottom: 10px;
+}
+
+.estacion-header p {
+  font-size: 16px;
+  color: #666;
+}
+
+.estacion-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.estacion-card {
+  background: white;
+  border-radius: 12px;
+  padding: 30px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.estacion-card h2 {
+  color: #e63946;
+  margin-bottom: 20px;
+}
+
+.estacion-form {
+  background: white;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.pruebas-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.prueba-card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.prueba-card h3 {
+  color: #e63946;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.input-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.input-group input {
+  flex: 1;
+}
+
+.input-group button {
+  flex-shrink: 0;
+}
+
+.animacion-resultado {
+  margin-top: 30px;
+  animation: fadeIn 0.5s ease-in;
+}
