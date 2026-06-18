@@ -1,0 +1,47 @@
+.animacion-prueba {
+  background: white;
+  border-radius: 12px;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.prueba-icono {
+  font-size: 60px;
+  margin-bottom: 20px;
+  animation: pulse 1s infinite;
+}
+
+.prueba-valor {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.numero {
+  font-size: 44px;
+  font-weight: bold;
+  color: #e63946;
+}
+
+.unidad {
+  font-size: 16px;
+  color: #666;
+}
+
+.prueba-label {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+  margin: 15px 0;
+}
+
+.prueba-barra {
+  height: 4px;
+  background: linear-gradient(90deg, #52B788, #2ecc71);
+  border-radius: 2px;
+  margin-top: 15px;
+}
