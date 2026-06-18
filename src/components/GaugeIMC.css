@@ -1,0 +1,27 @@
+.gauge-container {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.gauge-info {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  width: 100%;
+}
+
+.gauge-value {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.gauge-label {
+  font-size: 14px;
+  color: #666;
+  margin: 5px 0 0 0;
+}
